@@ -23,7 +23,7 @@ int main() {
     double costCoverage { costPerSquareMeter * square };
 
     cout << "Cost per square meter: " << costPerSquareMeter << "\n";
-    cout << "height: " << height << "; width: " << width << "\n";
+    cout << "height: " << height << "; \n width: " << width << "\n";
     cout << "Perimeter: " << perimeter << "\n";
     cout << "Square: " << square << "\n";
     cout << "Diagonal: " << diagonal << "\n";
