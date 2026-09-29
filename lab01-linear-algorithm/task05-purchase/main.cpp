@@ -16,8 +16,8 @@ int main() {
     double price2 { 100 };
     double quantity2 { 10 };
 
-    cout << "Товар 1. Цена - " << price1 << " тг. Кол-во: " << quantity1 << "\n";
-    cout << "Товар 2. Цена - " << price2 << " тг. Кол-во: " << quantity2 << "\n";
+    cout << "Товар 1. Цена - " << price1 << " тг. Кол-во - " << quantity1 << "\n";
+    cout << "Товар 2. Цена - " << price2 << " тг. Кол-во - " << quantity2 << "\n";
 
     double cost1 { price1 * quantity1 };
     double cost2 { price2 * quantity2 };
