@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
     /*
      * 1. Ввести час от 0 до 23. Определить, относится ли он к первой или второй половине суток.
@@ -7,6 +9,28 @@ int main() {
      * 3. Добавить проверку корректности введённого часа.
      *    Для некорректного значения вывести сообщение об ошибке.
     */
+
+    int hour { 24 };
+
+    if (hour >= 0 && hour <= 23) {
+        if (hour < 12) {
+            cout << "1-ая половина суток" << endl;
+        } else {
+            cout << "2-ая половина суток" << endl;
+        }
+
+        if (hour >= 0 && hour <= 5) {
+            cout << "ночь" << endl;
+        } else if (hour >= 6 && hour <= 11) {
+            cout << "утро" << endl;
+        } else if (hour >= 12 && hour <= 17) {
+            cout << "день" << endl;
+        } else if (hour >= 18 && hour <= 23) {
+            cout << "вечер" << endl;
+        }
+    } else {
+        cout << "некорректное значение" << endl;
+    }
 
     return 0;
 }
