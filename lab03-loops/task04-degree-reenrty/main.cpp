@@ -47,5 +47,7 @@ int main() {
         cin >> power;
     } while (power >= 0);
 
+    cout << "Показатель степени: " << power << "\n";
+
     return 0;
 }
